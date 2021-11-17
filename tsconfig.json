@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "jsx": "react",
+    "lib": ["dom", "es2019"],
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts"]
+}

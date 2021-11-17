@@ -1,5 +1,5 @@
 {
-  "watch": ["./dist"],
-  "ignore": ["./src", "./static"],
-  "exec": "node ./dist/main.js --build-website --path ./ --serve"
+  "watch": ["./dist", "./static"],
+  "ignore": ["./src"],
+  "exec": "node ./dist/main.js --build-html --path ./static/website/public --serve"
 }

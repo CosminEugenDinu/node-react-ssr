@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "none",
+    "declaration": true,
+    "strictNullChecks": true,
+    "outDir": "../../../static/website/public/js",
+    "rootDir": "../js",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "es5", "dom.iterable", "esnext"],
+  }
+}

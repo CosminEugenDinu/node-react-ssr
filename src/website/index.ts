@@ -7,6 +7,5 @@ export async function renderHtml(staticPath: string) {
   const createdDirs = await fs.mkdir(staticPathAbs, { recursive: true })
   if (createdDirs)
     msgs.push(`Created directories ${createdDirs}`);
-  const index = require("./html/index.html");
-  await index.render(staticPath);
+  await require("./html/main-page/index.html").render(staticPath);
 }

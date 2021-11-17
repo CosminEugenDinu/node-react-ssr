@@ -8,7 +8,7 @@ import express, {Request, Response} from "express";
 
 export function startServer() {
   const app = express();
-  app.use("/", express.static(path.join(module.path, "../../static/public")));
+  app.use("/", express.static(path.join(module.path, "../../static/website/public")));
   app.use("/", express.static(getSetting("websiteStaticPath") as string));
   app.get("/", sendMainPage);
   const port = process.env.PORT || 8000;

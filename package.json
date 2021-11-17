@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "{ tsc --watch & nodemon; }"
+    "start": "{ tsc --watch  & tsc --watch --project ./src/website/js/tsconfig.json & nodemon; }"
   },
   "dependencies": {
     "@types/prettier": "^2.0.0",

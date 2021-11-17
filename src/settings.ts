@@ -10,7 +10,7 @@ type Settings = {
 
 const settings: Settings = {
   allowPathOutsideProject: false,
-  websiteStaticPath: "./out.website",
+  websiteStaticPath: "./html",
   projectRootDir: path.resolve(module.path, "../"),
 };
 
